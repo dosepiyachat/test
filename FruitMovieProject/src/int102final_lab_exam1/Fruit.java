@@ -59,8 +59,7 @@ public class Fruit {
      */
     @Override
     public String toString() {
-        return String.format("%s ("
-                + "f, quality:%d)", name, price, quality);
+        return String.format("%s (%.2f, quality:%d)", name, price, quality);
     }
 
     /**
