@@ -1,3 +1,3 @@
 let name = "beam"
-    // var name = "dose"
+var name = "dose"
 console.log("hello" + name)
